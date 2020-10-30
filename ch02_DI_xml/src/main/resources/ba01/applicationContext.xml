@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--声明student对象
+    注入：就是赋值的意思
+    简单类型：spring中规定Java的基本数据类型和String都是简单类型
+
+    DI：给属性赋值
+    ① set注入（设置注入）：spring调用类的set方法，可以在set方法中完成属性赋值
+        语法规则：
+        <bean id = "xxx" class = "yyyy">
+            <property name = "属性名字" value = "属性的值"/>
+            一个property只能给一个属性赋值
+            <property...>..
+         </bean>
+
+-->
+    <bean id="mystudent" class="com.ba01.Student">
+        <property name="age" value="12"></property><!--setAge("12")-->
+        <property name="name" value="李四"></property><!--setName("李四")-->
+    </bean>
+
+    <bean id="mydate" class="java.util.Date">
+        <property name="time" value="8668466"></property>
+    </bean>
+</beans>
