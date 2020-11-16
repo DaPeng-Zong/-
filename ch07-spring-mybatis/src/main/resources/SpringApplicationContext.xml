@@ -40,4 +40,9 @@
         -->
         <property name="basePackage" value="com.bj.dao"/>
     </bean>
+
+    <!---->
+    <bean id="studentService" class="com.bj.service.impl.StudentServiceImpl">
+        <property name="studentDao" ref="studentDao"></property>
+    </bean>
 </beans>
