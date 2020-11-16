@@ -1,0 +1,6 @@
+2020-11-16 13:37:34,057 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-11-16 13:37:34,436 379    [ost-startStop-1] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2020-11-16 13:37:34,461 404    [ost-startStop-1] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020-11-16 13:37:34,663 606    [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext initialized in 605 ms
+2020-11-16 13:37:34,685 628    [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - Initializing Servlet 'springmvcDispatcherServlet'
+2020-11-16 13:37:34,993 936    [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - Completed initialization in 308 ms
